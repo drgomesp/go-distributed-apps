@@ -1,8 +1,10 @@
 module github.com/drgomesp/go-distributed-apps
 
-go 1.21
+go 1.22
 
 require (
+	github.com/caarlos0/env/v11 v11.0.1
+	github.com/davecgh/go-spew v1.1.1
 	github.com/joho/godotenv v1.5.1
 	github.com/rs/zerolog v1.33.0
 	github.com/urfave/cli/v2 v2.27.2
